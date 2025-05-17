@@ -11,20 +11,32 @@ This project focuses on detecting deception in text communications within the st
 ## Project Structure
 
 
-deception-detection/
-├── nlp-project-endsem.ipynb # RoBERTa + Metadata model
-├── harbinger-transformer.ipynb # Transformer with harbinger tokens
-├── data/
-│ ├── train.tsv
-│ ├── valid.tsv
-│ └── test.tsv
-├── utils/
-│ ├── tokenizer.py
-│ └── dataset.py
-├── models/
-│ ├── roberta_model.py
-│ └── transformer_model.py
-└── README.md
+DECEPTION-DETECTION-USING-NLP/
+├── Benchmark Models/
+│ ├── Harbinger and transformer model.ipynb # Final transformer model notebook
+│ ├── harbinger_model.pth # Saved PyTorch weights for transformer
+│ ├── Roberta Deception Model.ipynb # Final RoBERTa + metadata notebook
+│
+├── Dataset/
+│ ├── train.jsonl # Training set
+│ ├── validation.jsonl # Validation set
+│ └── test.jsonl # Test set
+│
+├── Initial Models/
+│ ├── EDA.ipynb # Exploratory data analysis
+│ ├── logistic_regression.ipynb # Initial logistic regression baseline
+│ ├── lstm.ipynb # Initial LSTM model notebook
+│ └── lstm_model_3.pth # Saved LSTM model weights
+│
+├── Report + Presentation Modules/
+│ ├── Final Presentation.pdf # Final presentation slides
+│ ├── FInal Report.pdf # Final project report
+│ └── Phase 1 Report.pdf # Initial phase-1 report
+│
+├── LICENSE # License file
+└── README.md # Project documentation
+
+
 
 
 
