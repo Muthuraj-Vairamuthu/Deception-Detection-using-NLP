@@ -10,7 +10,6 @@ This project focuses on detecting deception in text communications within the st
 
 ## Project Structure
 
-
 DECEPTION-DETECTION-USING-NLP/
 ├── Benchmark Models/
 │ ├── Harbinger and transformer model.ipynb # Final transformer model notebook
@@ -35,7 +34,6 @@ DECEPTION-DETECTION-USING-NLP/
 │
 ├── LICENSE # License file
 └── README.md # Project documentation
-
 
 
 
